@@ -46,10 +46,10 @@
 - 웹페이지의 반복되는 단어, 제목 등을 json을 사용하여 간편하게 불러옴
 
 ## 포트폴리오 카테고리
-works_category\n
 
-C: lang-c\n
-C#: lang-c-sharp\n
-DISCORD.JS: lang-discord-js\n
-HTML: lang-html\n
-PHP: lang-php
+= works_category\n =
+- C: lang-c
+- C#: lang-c-sharp
+- DISCORD.JS: lang-discord-js
+- HTML: lang-html
+- PHP: lang-php
