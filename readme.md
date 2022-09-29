@@ -45,10 +45,11 @@
 - 디스코드 웹훅을 사용한 빠른 문의하기를 우측 하단에 배치 -> 디스코드 웹훅을 사용하지 않고 간편 쳇봇을 사용함(간편한 질문 키워드를 입력하여 답변)
 - 웹페이지의 반복되는 단어, 제목 등을 json을 사용하여 간편하게 불러옴
 
-works_category
+## 포트폴리오 카테고리
+works_category\n
 
-C: lang-c
-C#: lang-c-sharp
-DISCORD.JS: lang-discord-js
-HTML: lang-html
+C: lang-c\n
+C#: lang-c-sharp\n
+DISCORD.JS: lang-discord-js\n
+HTML: lang-html\n
 PHP: lang-php
