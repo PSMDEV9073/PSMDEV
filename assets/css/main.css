@@ -1,0 +1,419 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #23272a;
+    color: #ffffff;
+    cursor: default;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover, a:focus, a:active, a::after, a::before {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: default;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22.4px;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+.s-banner {
+    background-color: #1b1c1d;
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #1b1c1d;
+    padding: 8px 12px;
+}
+
+.navbar__logo {
+    font-size: 24px;
+    color: white;
+}
+
+.navbar__logo a:hover, .navbar__logo a:active, .navbar__logo a:focus,
+.navbar__logo a::after, .navbar__logo a::before {
+    color: #ffffff;
+    cursor: default;
+}
+
+.navbar__logo i {
+    color: #d49466;
+}
+
+.navbar__menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navbar__menu li {
+    padding: 8px 12px;
+}
+
+.navbar__menu a:hover, .navbar__menu a:active, .navbar__menu a:focus,
+.navbar__menu a::after, .navbar__menu a::before {
+    color: #ffffff;
+    cursor: default;
+}
+
+.navbar__menu a{
+    position: relative;
+}
+.navbar__menu a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    width: 0px;
+    height: 2px;
+    margin: 5px 0 0;
+    transition: all 0.1s ease-in-out;
+    transition-duration: 0.1s;
+    opacity: 0;
+    background-color: #ffffff;
+}
+.navbar__menu a:hover:after{
+    width: 100%;
+    opacity: 1;
+}
+
+.navbar__icons {
+    list-style: none;
+    color: white;
+    display: flex;
+    padding-left: 0px;
+}
+
+.navbar__icons li {
+    padding: 8px 12px;
+}
+
+.navbar__toogleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: #d49466;
+}
+
+.banner-text h1 {
+    color: #fff;
+    font-weight: 700;
+}
+.banner-text p {
+    color: #fff;
+    font-weight: 300;
+}
+
+.b-padding {
+    padding-top: 360px;
+    padding-bottom: 360px;
+}
+.b-padding .discord-connact {
+    font-size: 24px;
+    color: #ffffff;
+    padding: 14px 7px 14px 7px;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: #263343;
+}
+.b-padding .discord-connact :hover {
+    background-color: #404eed;
+}
+.b-padding p {
+    line-height: 50px;
+}
+
+.discord-icon {
+    background-color: #404eed;
+    padding: 10px 7px 10px 7px;;
+    border-radius: 50%;
+}
+.discord-connact-text {
+    font-size: 20px;
+}
+
+.projects-introduce {
+    min-height: 145px;
+    margin-bottom: 50px;
+}
+
+.line-height-100px {
+    line-height: 100px;
+}
+
+.line-height-40px {
+    line-height: 50px;
+}
+
+.line-height-35px {
+    line-height: 35px;
+}
+
+.footer .footer-top {
+    background-color: #1b1c1d;
+    padding-top: 50px 0;
+}
+
+.footer .footer-bottom {
+    background-color: #1b1c1d;
+    padding: 20px 0;
+}
+
+.footer .footer-url li {
+    display: inline-block;
+    float: none;
+}
+
+.footer .webversion-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* =============== GO TO TOP =============== */
+#scrollToTop {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-indent: -99999em;
+    display: none;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 50%;
+    background: #E74C3C url("../images/svg/scroll.to.top.svg") center center no-repeat;
+  }
+  #scrollToTop:hover {
+    text-decoration: none;
+    background-color: #F75C4C;
+  }
+  
+  /* =============== CHAT BOT =============== */
+  #chatBot {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-indent: -99999em;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 50%;
+    border: 2px white solid;
+    background: black url("../images/all-photo/White-Logo50x50.png") center center no-repeat;
+  }
+  
+  #chatBot_message {
+    display: none;
+    position: relative;
+    width: 230px;
+    height: 50px;
+    text-align: left;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 70px;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 50px;
+    background-color: blueviolet;
+  }
+  
+  #chatBot_message img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+  }
+  
+  #chatBot_message a {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    border-radius: 50px;
+    padding: 20px 10px 20px 10px;
+    float: left;
+    font-size: 10px;
+    color: white;
+  }
+  
+  #chatBot {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-indent: -99999em;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 50%;
+    border: 2px white solid;
+    background: black url("../images/all-photo/White-Logo50x50.png") center center no-repeat;
+  }
+
+  ::-webkit-input-placeholder {
+   color:#888;
+  }
+  :-moz-placeholder {
+   color:#888;
+  }
+  ::-moz-placeholder {
+   color:#888;
+  }
+  :-ms-input-placeholder {
+   color:#888;
+  }
+
+@media screen and (max-width: 768px) {
+    .padding-left-right-15px {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .b-padding .discord-connact {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .navbar {
+        flex-direction: column;
+        padding: 8px 24px;
+        align-items: center;
+    }
+    
+    .navbar__menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar__menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar__icons {
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar__toogleBtn {
+        display: block;
+    }
+
+    .navbar__menu.active,
+    .navbar__icons.active {
+        display: flex;
+    }
+
+    .padding-left-right-15px {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #main_title {
+        font-size: 15px;
+    }
+    #main_discord_btn {
+        font-size: 10px;
+    }
+}
+/*
+    Custom scroll bar
+    커스텀 스크롤바
+*/
+::-webkit-scrollbar {
+    width: 2px;  /* 스크롤바의 너비 */
+}
+  
+::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #217af4; /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: none;  /*스크롤바 뒷 배경 색상*/
+}
