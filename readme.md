@@ -47,7 +47,7 @@
 
 ## 포트폴리오 카테고리
 
-= works_category\n =
+= works_category =
 - C: lang-c
 - C#: lang-c-sharp
 - DISCORD.JS: lang-discord-js
