@@ -12,7 +12,7 @@ jQuery(function($) {
                 display: "block"
             });
             $('.sub_navbar_menu').css({
-                paddingTop: "50px"
+                paddingTop: "70px"
             });
         }
     });
