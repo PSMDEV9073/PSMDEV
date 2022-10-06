@@ -92,6 +92,13 @@ body {
     opacity: 0;
     background-color: #ffffff;
 }
+.navbar__menu a:hover, .navbar__menu a:focus,
+.navbar__menu a:active, .navbar__menu a::after, .navbar__menu a::before {
+    text-decoration: none;
+    /*color: white;*/
+    color: black;
+    cursor: default;
+}
 .navbar__menu a:hover:after{
     width: 100%;
     opacity: 1;
