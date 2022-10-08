@@ -14,6 +14,10 @@ body {
     user-select: none;
 }
 
+.footer-col p {
+    margin: 0 0 0 0;
+}
+
 .s-banner {
     background-color: #1b1c1d;
     background-position: center top;
@@ -124,6 +128,10 @@ body {
     /*color: #d49466;*/
     color: black;
 }
+.navbar__toogleBtn::after, .navbar__toogleBtn::before,
+.navbar__toogleBtn:hover, .navbar__toogleBtn:active {
+    color: black;
+}
 
 a {
     text-decoration: none;
@@ -196,10 +204,11 @@ ul, ol {
     border-radius: 7px;
     background-color: #263343;
 }
-.b-padding .discord-connact :hover {
+.b-padding .discord-connact:hover {
     background-color: #404eed;
 }
-.b-padding p {
+
+.b-padding .b-padding p {
     line-height: 50px;
 }
 
@@ -208,6 +217,7 @@ ul, ol {
     padding: 10px 7px 10px 7px;;
     border-radius: 50%;
 }
+
 .discord-connact-text {
     font-size: 20px;
 }
@@ -263,14 +273,14 @@ ul, ol {
     z-index: 2;
     border-radius: 50%;
     background: #E74C3C url("../images/svg/scroll.to.top.svg") center center no-repeat;
-  }
-  #scrollToTop:hover {
+}
+#scrollToTop:hover {
     text-decoration: none;
     background-color: #F75C4C;
-  }
-  
-  /* =============== CHAT BOT =============== */
-  #chatBot {
+}
+
+/* =============== CHAT BOT =============== */
+#chatBot {
     width: 50px;
     height: 50px;
     text-align: center;
@@ -284,9 +294,9 @@ ul, ol {
     border-radius: 50%;
     border: 2px white solid;
     background: black url("../images/all-photo/White-Logo50x50.png") center center no-repeat;
-  }
-  
-  #chatBot_message {
+}
+
+#chatBot_message {
     display: none;
     position: relative;
     width: 230px;
@@ -300,31 +310,31 @@ ul, ol {
     z-index: 2;
     border-radius: 50px;
     background-color: blueviolet;
-  }
-  
-  #chatBot_message img {
+}
+
+#chatBot_message img {
     position: absolute;
     top: 0;
     left: 0;
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     float: left;
-  }
-  
-  #chatBot_message a {
+}
+
+#chatBot_message a {
     position: absolute;
     top: 0;
     left: 50px;
     border-radius: 50px;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 10px;
     float: left;
     font-size: 10px;
     color: white;
-  }
-  
-  #chatBot {
+}
+
+#chatBot {
     width: 50px;
     height: 50px;
     text-align: center;
@@ -338,20 +348,20 @@ ul, ol {
     border-radius: 50%;
     border: 2px white solid;
     background: black url("../images/all-photo/White-Logo50x50.png") center center no-repeat;
-  }
+}
 
-  ::-webkit-input-placeholder {
-   color:#888;
-  }
-  :-moz-placeholder {
-   color:#888;
-  }
-  ::-moz-placeholder {
-   color:#888;
-  }
-  :-ms-input-placeholder {
-   color:#888;
-  }
+::-webkit-input-placeholder {
+    color: #888;
+}
+:-moz-placeholder {
+    color: #888;
+}
+::-moz-placeholder {
+    color: #888;
+}
+:-ms-input-placeholder {
+    color: #888;
+}
 
 @media screen and (max-width: 768px) {
     .padding-left-right-15px {

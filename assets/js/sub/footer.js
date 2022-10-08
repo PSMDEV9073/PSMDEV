@@ -53,7 +53,9 @@ function jsonfunc_footer( jsonText_footer ) {
                                 </ul>
                                 
                                 <p class="line-height-35px">Copyright © 2022 ${Web_Title}. All Rights Reserved</p>
+                                
                             </div>
+                            </br>
         
                             <!--div class="footer-col col-md-4 text-left">
                                 <h5>Project</h5>
@@ -63,6 +65,7 @@ function jsonfunc_footer( jsonText_footer ) {
         
                             <div class="footer-col col-md-4 text-left">
                                 <h5>문서</h5>
+                                <p><a href="../roadmaps">로드맵</a></p>
                                 <p><a href="../t/terms">이용약관</a></p>
                                 <p><a href="../t/license">라이센스</a></p>
                             </div>

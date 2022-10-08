@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <h4>포트폴리오 검색</h4>
-                    <input id="search" class="input-radius" onkeyup="filter()" placeholder="제목 또는 설명 입력" value="" />
+                    <input id="search" class="input-radius" onkeyup="filter()" placeholder="제목 또는 설명 입력(비활성화)" value="" />
                     <div class="padding-top-20px">
                         <h4>카테고리 목록</h4>
                         <button id="category_all" class="btn-radius text-left choise">전체</button> <!--choise-->
@@ -62,7 +62,10 @@
             <div class="service-bot">
                 <div class="chat-scroll-bar">
                     <div class="left-chat-box">
-                        <span>안녕하세요.</span>
+                        <span>
+                            안녕하세요.</br>
+                            쳇봇을 종료 하시려면 새로고침 해주세요.
+                        </span>
                     </div>
                     <div id="service_bot"></div>
                 </div>

@@ -36,11 +36,11 @@ function jsonfunc_works( jsonText_works ) {
                     <div class="card h-100">
                         <a class="none-hover" target="${works_target}" href="${works_url}">
                             <div class="card-body">
-                                <h4 class="card-title portfolio-title">
+                                <h4 class="card-title portfolio-title" id="portfolio_title">
                                     <img class="card-image" src="${works_image}">
                                     ${works_title}
                                 </h4>
-                                <p class="card-text portfolio-description">
+                                <p class="card-text portfolio-description" id="portfolio_description">
                                     ${works_description}
                                 </p>
                             </div>
@@ -54,14 +54,14 @@ function jsonfunc_works( jsonText_works ) {
                     <div class="card h-100">
                         <a class="none-hover" target="${works_target}" href="${works_url}">
                             <div class="card-body">
-                                <h4 class="card-title portfolio-title">
+                                <h4 class="card-title portfolio-title" id="portfolio_title">
                                     <img class="card-image" src="${works_image}">
                                     ${works_title}
                                     (<a class="demo-url" href="${works_demo_view}">
                                         데모보기
                                     </a>)
                                 </h4>
-                                <p class="card-text portfolio-description">
+                                <p class="card-text portfolio-description" id="portfolio_description">
                                     ${works_description}
                                 </p>
                             </div>
