@@ -73,27 +73,27 @@ $("#m_header").html(`
                     </a>
                 </div>
             </div>
-        </div>
 
-        <div class="middle-banner">
-            <p class="middle-banner-title">제목</p>
-            <p>소개</p>
-        </div>
+            <div class="middle-banner">
+                <p class="middle-banner-title">제목</p>
+                <p>소개</p>
+            </div>
 
-        <div class="none-bar"></div>
+            <div class="none-bar"></div>
 
-        <div class="bottom-nav">
-            <li>
-                <i class="fa fa-file-text" aria-hidden="true"></i>
-                <p>문서</p>
-                <i class="fa fa-chevron-right right-icon" aria-hidden="true"></i>
-            </li>
-        </div>
+            <div class="bottom-nav">
+                <li>
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                    <p>문서</p>
+                    <i class="fa fa-chevron-right right-icon" aria-hidden="true"></i>
+                </li>
+            </div>
 
-        <div class="bottom-nav-copyright">
-            <p>
-                Copyright © 2022 PSMDEV. All Rights Reserved
-            </p>
+            <div class="bottom-nav-copyright">
+                <p>
+                    Copyright © 2022 PSMDEV. All Rights Reserved
+                </p>
+            </div>
         </div>
     </div>
 `);

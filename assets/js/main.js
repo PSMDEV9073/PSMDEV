@@ -23,6 +23,16 @@ xtoggleBtn.addEventListener('click', () => {
 	}, 1000);
 });
 
+jQuery(function($) {
+	if(document.body.offsetWidth >= "1200px") {
+		$('.mobile-nav').css({
+			display: "none"
+		});
+		
+	}
+	console.log(document.body.offsetWidth);
+});
+
 
 /*  
     Scroll to top

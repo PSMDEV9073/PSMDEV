@@ -250,7 +250,6 @@ body {
     right: 20px;
 }
 .bottom-nav-copyright {
-    position: relative;
     padding: 20px 20px 20px 20px;
     top: 52%;
 }
@@ -509,22 +508,15 @@ ul, ol {
     color: #888;
 }
 
-@media screen and (max-width: 768px) {
-    .padding-left-right-15px {
-        padding-left: 15px;
-        padding-right: 15px;
+@media screen and (max-width: 300px) {
+    #main_title {
+        font-size: 15px;
     }
-
-    h1 {
-        font-size: 42px;
-    }
-    p {
+    #main_discord_btn {
         font-size: 10px;
     }
-    .b-padding .discord-connact {
-        font-size: 14px;
-    }
 }
+
 @media screen and (max-width: 1199px) {
     .navbar {
         flex-direction: column;
@@ -557,10 +549,6 @@ ul, ol {
     .navbar__menu.active,
     .navbar__icons.active {
         display: flex;
-    }
-
-    .mobile-nav {
-        display: none;
     }
 
     .padding-left-right-15px {
