@@ -1,7 +1,7 @@
 $("#header").append(`
     <nav class="navbar">
         <div class="navbar__logo">
-            <a style="color: black; font-weight: bolder;" href="../">PSMDEB</a>
+            <a style="color: black; font-weight: bolder;" href="../">PSMDEV</a>
         </div>
 
         <ul class="navbar__menu">
@@ -30,7 +30,7 @@ $("#m_header").append(`
         <div class="col-md-10 col-md-offset-1">
             <div class="mobile-top">
                 <p>안녕하세요!</p>
-                <span>PSMDEB 입니다.</span>
+                <span>PSMDEV 입니다.</span>
 
                 <div class="hide-left-side-bar-btn cell-right">
                     <span class="btn ico">
