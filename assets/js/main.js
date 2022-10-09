@@ -3,13 +3,26 @@
     모바일 화면의 사이즈가 되면 메뉴가 변견됩니다.
 */
 const toggleBtn = document.querySelector('.navbar__toogleBtn');
-const menu = document.querySelector('.navbar__menu');
-const icons = document.querySelector('.navbar__icons');
+const xtoggleBtn = document.querySelector('.hide-left-side-bar-btn');
 
 toggleBtn.addEventListener('click', () => {
-    menu.classList.toggle('active')
-    //icons.classList.toggle('active')
+    $('.mobile-nav').css({
+		display: "block",
+		animation: "fadeInLeftToRight 1s"
+	});
 });
+
+xtoggleBtn.addEventListener('click', () => {
+    $('.mobile-nav').css({
+		animation: "fadeInRightToLeft 1s"
+	});
+	setTimeout(function() {
+		$('.mobile-nav').css({
+			display: "none"
+		});
+	}, 1000);
+});
+
 
 /*  
     Scroll to top
@@ -84,38 +97,3 @@ jQuery(function($) {
 		});
 	});
 });
-
-
-/*  
-    Send discord webhook message
-    저장된 디스코드 웹훅으로 메시지가 전송됩니다.
-
-function sendMessage() {
-	const request = new XMLHttpRequest();
-	request.open("POST", "https://discord.com/api/webhooks/1006085214868611122/KHtV-A2mqieYpyV-7ZSYJShzxKHP9sko5c0T7YWyMJnSoQuqUnkBKqEG9nc8PMTlx8c7");
-
-	request.setRequestHeader('Content-type', 'application/json');
-	const webhook_discord_name = document.getElementById("webhook_discord_name").value;
-	const webhook_title = document.getElementById("webhook_title").value;
-	const webhook_image_or_video_url = document.getElementById("webhook_image_or_video_url").value;
-	const webhook_message = document.getElementById("webhook_message").value;
-
-	const params = {
-	  	username: "ProjectPBB Contacts",
-	  	content: `이름: ${webhook_discord_name}\n제목: ${webhook_title}\n내용: ${webhook_message}\n자료: ${webhook_image_or_video_url}`
-	}
-
-	request.send(JSON.stringify(params));
-
-	$('.not-send').css({
-		display: "none"
-	});
-
-	$('.success-send').css({
-		display: "block"
-	});
-
-	auto_close();
-	$("#auto_close_count").html(`이 화면은 5 초뒤 자동으로 닫힙니다.`);
-}
-*/

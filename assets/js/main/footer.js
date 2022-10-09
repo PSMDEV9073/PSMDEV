@@ -16,6 +16,7 @@ function jsonfunc_footer( jsonText_footer ) {
             let Web_Information = json_footer[i].Web_Information;
             let Web_Title = json_footer[i].Web_Title;
             let Web_Version = json_footer[i].Web_Version;
+            let Web_Menu_Version = json_footer[i].Web_Menu_Version;
             let Web_Build = json_footer[i].Web_Build;
             let Web_Last_Update = json_footer[i].Web_Last_Update;
             let Web_Developer = json_footer[i].Web_Developer;
