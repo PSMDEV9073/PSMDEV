@@ -559,6 +559,10 @@ ul, ol {
         display: flex;
     }
 
+    .mobile-nav {
+        display: none;
+    }
+
     .padding-left-right-15px {
         padding-left: 15px;
         padding-right: 15px;
