@@ -6,6 +6,7 @@ const toggleBtn = document.querySelector('.navbar__toogleBtn');
 const xtoggleBtn = document.querySelector('.hide-left-side-bar-btn');
 
 toggleBtn.addEventListener('click', () => {
+    $('html').addClass('left-side-bar-visible');
     $('.mobile-nav').css({
 		display: "block",
 		animation: "fadeInLeftToRight 1s"
@@ -13,7 +14,8 @@ toggleBtn.addEventListener('click', () => {
 });
 
 xtoggleBtn.addEventListener('click', () => {
-    $('.mobile-nav').css({
+    $('html').removeClass('left-side-bar-visible');
+	$('.mobile-nav').css({
 		animation: "fadeInRightToLeft 1s"
 	});
 	setTimeout(function() {
@@ -23,6 +25,17 @@ xtoggleBtn.addEventListener('click', () => {
 	}, 1000);
 });
 
+if(screen.width >= "1200") {
+	$('html').removeClass('left-side-bar-visible');
+	$('.mobile-nav').css({
+		animation: "fadeInRightToLeft 1s"
+	});
+	setTimeout(function() {
+		$('.mobile-nav').css({
+			display: "none"
+		});
+	}, 1000);
+}
 
 /*  
     Scroll to top
