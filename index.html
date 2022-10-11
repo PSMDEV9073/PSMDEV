@@ -14,6 +14,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/ico/logo-black.ico">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
     <link rel="stylesheet" href="./assets/css/aboutme.css">
     <link rel="stylesheet" href="./assets/css/chat.bot.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,15 +25,50 @@
         <header id="header" class="fixed"></header>
         <div id="m_header"></div>
 
-        <div id="banner" class="container b-padding">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="text-center">
-                    <h1 id="main_title">『 PSM 』</h1>
-                    <p>PSM의 Portfolio 를 업로드 하는 곳 입니다.</p>
-                    <a id="main_discord_btn" class="discord-connact" href="https://discord.gg/yME5uVZx83" target="_blank">
-                        <i class="fa-brands fa-discord discord-icon"></i> <span>디스코드 접속</span>
-                    </a>
+        <div id="main-top-banner">
+            <div class="content-slider">
+                <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+                <input type="radio" id="banner2" class="sec-1-input" name="banner">
+                <input type="radio" id="play_pause" class="auto-banner--play-pause" name="playandpause">
+
+                <div class="slider">
+                    <div id="top-banner-1" class="banner">
+                        <div class="banner-wrapper">
+                            <h2>안녕하세요!</h2>
+                            <h1>PSMDEV 입니다.</h1>
+                            <div class="line"></div>
+                            <div class="learn-more-btn">
+                                <a href="./profile">내소개</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="top-banner-2" class="banner">
+                        <div class="banner-wrapper">
+                            <h2>이곳은?</h2>
+                            <h1>PSM의 포트폴리오를 업로드하는 곳 입니다.</h1>
+                            <div class="line"></div>
+                            <div class="learn-more-btn">
+                                <a href="./works">포트폴리오</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
+                <nav>
+                    <div class="controls">
+                        <label for="banner1">
+                            <span class="progressbar">
+                                <span class="progressbar-fill"></span>
+                            </span>
+                        </label>
+                        <label for="banner2">
+                            <span class="progressbar">
+                                <span class="progressbar-fill"></span>
+                            </span>
+                        </label>
+                    </div>
+                </nav>
             </div>
         </div>
         <img style="background-color: #1b1c1d;" src="./assets/images/svg/wave.svg">
@@ -215,7 +251,7 @@
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/main/header.nav.js"></script>
     <script src="./assets/js/aboutme.slide.js"></script>
-    <script src="./assets/js/count.num.js"></script>
+    <script src="./assets/js/slider.js"></script>
     <script src="./assets/js/main/footer.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/chat.bot.js"></script>

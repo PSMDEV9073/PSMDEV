@@ -1,7 +1,7 @@
 $("#header").append(`
     <nav class="navbar">
         <div class="navbar__logo">
-            <a style="color: black; font-weight: bolder;" href="./">PSMDEV</a>
+            <a style="color: black; font-weight: bolder; line-height: 1.7;" href="./">PSMDEV</a>
         </div>
 
         <ul class="navbar__menu">
