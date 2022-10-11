@@ -146,9 +146,6 @@
    }
 }
 @media only screen and (min-width: 1920px) {
-    body {
-        font-size: 22px;
-   }
     .main-header .header-wrapper {
         width: 57%;
    }
@@ -160,9 +157,6 @@
    }
 }
 @media only screen and (max-width: 1919px) {
-    body {
-        font-size: 20px;
-   }
     .main-header .header-wrapper {
         width: 60%;
    }
@@ -174,9 +168,6 @@
    }
 }
 @media only screen and (max-width: 1680px) {
-    body {
-        font-size: 18px;
-   }
     .main-header .header-wrapper {
         width: 65%;
    }
@@ -188,9 +179,6 @@
    }
 }
 @media only screen and (max-width: 1366px) {
-    body {
-        font-size: 16px;
-   }
     .main-header .header-wrapper {
         width: 70%;
    }
@@ -213,9 +201,6 @@
    }
 }
 @media only screen and (max-width: 1024px) {
-    body {
-        font-size: 14px;
-   }
     .main-header .header-wrapper .main-menu li {
         padding: 0.75em 1.3em;
    }
