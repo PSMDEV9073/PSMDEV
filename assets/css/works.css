@@ -1,0 +1,120 @@
+.padding-top-20px {
+    padding-top: 20px;
+}
+.col-lg-3 {
+    background-color: #1b1c1d;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.input-radius {
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+    background-color: #23272a;
+    height: 35px;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+}
+.btn-radius {
+    border-radius: 10px;
+    outline: 0;
+    border: 1px gray solid;
+    background-color: #1b1c1d;
+    height: 50px;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+}
+.choise {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Sweep To Left */
+.btn-radius {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 10px;
+}
+.btn-radius:before {
+    content: "";
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.btn-radius:hover {
+    color: black;
+}
+.btn-radius:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.card-body {
+    border-radius: 10px;
+    background-color: #1b1c1d;
+    padding: 5px 10px 5px 10px;
+}
+.card-body:hover {
+    background-color: rgba(255,255,2555, 0.1);
+}
+.card-body .card-image {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.portfolio-title {
+    font-size: 15px;
+}
+.portfolio-title .demo-url:hover {
+    color: yellow;
+}
+.portfolio-description {
+    font-size: 14px;
+}
+.none-hover:hover, .none-hover:focus,
+.none-hover::after, .none-hover::before {
+    color: #ffffff;
+    cursor: default;
+}
+
+#list_scroll {
+    height: 532px;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+
+.lang-c, .lang-c-sharp, .lang-discord-js, .lang-html, .lang-php {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1199px) {
+    .lang-c, .lang-c-sharp, .lang-discord-js, .lang-html, .lang-php {
+        padding-top: 10px;
+    }
+}
