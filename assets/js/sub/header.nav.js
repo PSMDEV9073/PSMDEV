@@ -41,7 +41,7 @@ $("#m_header").append(`
                 <div class="mobile-nav-top-banner">
                     <a>
                         <div>
-                            <span>새로운 메뉴 입니다.</span>
+                            <span>신규 메뉴 입니다.</span>
                         </div>
                     </a>
                 </div>
@@ -75,17 +75,31 @@ $("#m_header").append(`
             </div>
 
             <div class="middle-banner">
-                <p class="middle-banner-title">제목</p>
-                <p>소개</p>
+                <p class="middle-banner-title">PSMDEV 업데이트!</p>
+                <p>1.0.3 -> 2.0.0 으로 변경 되었습니다.</p>
             </div>
+
             <div class="none-bar"></div>
+
             <div class="bottom-nav">
-                <li>
-                    <i class="fa fa-file-text" aria-hidden="true"></i>
-                    <p>문서</p>
-                    <i class="fa fa-chevron-right right-icon" aria-hidden="true"></i>
-                </li>
+                <a href="../t/terms">
+                    <li>
+                        <i class="fa fa-file-text" aria-hidden="true"></i>
+                        <p>문서 - <span>이용약관</span></p>
+                        <i class="fa fa-chevron-right right-icon" aria-hidden="true"></i>
+                    </li>
+                </a>
             </div>
+            <div class="bottom-nav">
+                <a href="../t/license">
+                    <li>
+                        <i class="fa fa-file-text" aria-hidden="true"></i>
+                        <p>문서 - <span>라이센스</span></p>
+                        <i class="fa fa-chevron-right right-icon" aria-hidden="true"></i>
+                    </li>
+                </a>
+            </div>
+
             <div class="bottom-nav-copyright">
                 <p>
                     Copyright © 2022 PSMDEV. All Rights Reserved
