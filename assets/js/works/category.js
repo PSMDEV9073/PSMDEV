@@ -26,6 +26,7 @@ function jsonfunc_works( jsonText_works ) {
         let works_image = json_works[i].works_image;
         let works_url = json_works[i].works_url;
         let works_demo = json_works[i].works_demo;
+        let works_demo_view = json_works[i].works_demo_view;
         let works_category = json_works[i].works_category;
         let works_target = json_works[i].works_target;
 
@@ -55,8 +56,8 @@ function jsonfunc_works( jsonText_works ) {
                             <div class="card-body">
                                 <h4 class="card-title portfolio-title" id="portfolio_title">
                                     <img class="card-image" src="${works_image}">
-                                    <span>${works_title}</span>
-                                    (<a class="demo-url" href="${works_demo}" target="${works_target}">
+                                    ${works_title}
+                                    (<a class="demo-url" href="${works_demo_view}">
                                         데모보기
                                     </a>)
                                 </h4>

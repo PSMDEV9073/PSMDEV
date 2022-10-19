@@ -8,63 +8,209 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PSMDEV</title>
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/ico/logo-black.ico">
-    <link rel="icon" type="image/ico" sizes="192x192" href="./assets/images/ico/logo-black.ico">
-    <link rel="icon" type="image/ico" sizes="32x32" href="./assets/images/ico/logo-black.ico">
-    <link rel="icon" type="image/ico" sizes="96x96" href="./assets/images/ico/logo-black.ico">
-    <link rel="icon" type="image/ico" sizes="16x16" href="./assets/images/ico/logo-black.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/ico/logo-black.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/ico/logo-black.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/ico/logo-black.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/ico/logo-black.ico">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/main.portfolio.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
     <link rel="stylesheet" href="./assets/css/aboutme.css">
     <link rel="stylesheet" href="./assets/css/chat.bot.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/824b9448fd.js" crossorigin="anonymous"></script>
-    <!-- 제이쿼리 불러오기 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css">
-    <link rel="stylesheet" href="./assets/css/slider.css">
 </head>
 <body>
-    <section class="section-top-header" role="header">
+    <section class="s-banner" role="banner">
         <header id="header" class="fixed"></header>
         <div id="m_header"></div>
-    </section>
 
-    <section style="background-color: black;">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url(./assets/images/banner/first.banner.png);">
-                    <h2>안녕하세요</h2>
+        <div id="main-top-banner">
+            <div class="content-slider">
+                <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+                <input type="radio" id="banner2" class="sec-1-input" name="banner">
+                <input type="radio" id="play_pause" class="auto-banner--play-pause" name="playandpause">
+
+                <div class="slider">
+                    <div id="top-banner-1" class="banner">
+                        <div class="banner-wrapper">
+                            <h2>안녕하세요!</h2>
+                            <h1>PSMDEV 입니다.</h1>
+                            <div class="line"></div>
+                            <div class="learn-more-btn">
+                                <a href="./profile">내소개</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="top-banner-2" class="banner">
+                        <div class="banner-wrapper">
+                            <h2>이곳은?</h2>
+                            <h1>PSM의 포트폴리오를 업로드하는 곳 입니다.</h1>
+                            <div class="line"></div>
+                            <div class="learn-more-btn">
+                                <a href="./works">포트폴리오</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="swiper-slide" style="background-image: url(./assets/images/banner/second.banner.png);"> 
-                    <h2>HELLO</h2>
-                </div>
+                <nav>
+                    <div class="controls">
+                        <label for="banner1">
+                            <span class="progressbar">
+                                <span class="progressbar-fill"></span>
+                            </span>
+                        </label>
+                        <label for="banner2">
+                            <span class="progressbar">
+                                <span class="progressbar-fill"></span>
+                            </span>
+                        </label>
+                    </div>
+                </nav>
             </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            
-            <div class="swiper-pagination"></div>
         </div>
+        <img style="background-color: #1b1c1d;" src="./assets/images/svg/wave.svg">
     </section>
 
-    <section id="portfolio" style="padding-top: 150px; padding-bottom: 150px;">
-        <div class="container">
+    <!--section class="projects-introduce">
+        <img style="background-color: #1b1c1d;" src="./assets/images/svg/wave.svg"/>
+        <div class="container" style="padding-top: 150px; padding-bottom: 150px;">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h3 class="line-height-100px">Projects - Windows Form C#</h3>
+            </div>
             <div class="row">
-                <div class="col-lg-12 text-center" style="padding-bottom: 50px;">
-                    <h2>Portfolio</h2>
-                    <h3 class="text-muted" style="font-size: 17px;">~ 10.13.2022 까지의 작업을 볼 수 있습니다.</h3>
+                <div class="col-md-4 col-sm-6 feature text-center">
+                    <div class="projects-introduce-content">
+                        <h5>PSMDEV WEB</h5>
+                        <p>09/13/2022 부터 제작중인 새로운 웹 사이트 입니다.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 feature text-center">
+                    <div class="projects-introduce-content">
+                        <h5 id="first_project"></h5>
+                        <p>쉽고 간편하게 PSM 파일을 다운로드 받을수 있는 파일 런처입니다.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 feature text-center">
+                    <div class="projects-introduce-content">
+                        <h5>ProjectDB</h5>
+                        <p>코로나 정보, PC 사용량을 확인할 수 있습니다.</p>
+                    </div>
                 </div>
             </div>
-            <div class="row" id="main_page_portfolio_view"></div>
-            <div class="row" style="padding-top: 20px;">
-                <div class="col-lg-12 text-center">
-                    <a href="./works" class="more-view-btn">More</a>
+        </div>
+    </section-->
+
+    <!--section class="my-introduce" style="padding-bottom: 150px;"></section-->
+    <section class="information-count" style="padding-top: 150px; padding-bottom: 150px;">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="page-header">
+                            <h3>About me</h3>
+                        </div>
+                            
+                        <div class="carousel slide" id="myCarousel" style="padding-bottom: 20px;">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <ul class="thumbnails">
+                                        <li class="span3">
+                                            <div class="caption">
+                                                <h4>저는 심심할떄 프로그래밍을 연습하는 사람이에요!</h4>
+                                                <p>
+                                                    저는 Disocrd.js 로 시작 하였습니다.</br>
+                                                    현재는 다양한 것을 해보기 위해서 아래와 같은 것을 해봤어요!</br>
+                                                    C, C#, DISCORD.JS, HTML, JAVASCRIPT, KOTLIN, PHP
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="thumbnails">
+                                        <li class="span3">
+                                            <div class="caption">
+                                                <h4>내 정보</h4>
+                                                <p>이름, 나이, 학번, MBTI, SNS 를 확인할 수 있어요!</p>
+                                                <a class="btn btn-mini" href="./profile">&raquo; 자세히 보기</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="thumbnails">
+                                        <li class="span3">
+                                            <div class="caption">
+                                                <h4>자기소개</h4>
+                                                <p>저를 소개하는 메시지가 작성되있어요!</p>
+                                                <a class="btn btn-mini" href="./profile">&raquo; 자세히 보기</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="thumbnails">
+                                        <li class="span3">
+                                            <div class="caption">
+                                                <h4>TMI</h4>
+                                                <p>저의 TMI 가 작성되있어요!</p>
+                                                <a class="btn btn-mini" href="./profile">&raquo; 자세히 보기</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="thumbnails">
+                                        <li class="span3">
+                                            <div class="caption">
+                                                <h4>스팩</h4>
+                                                <p>저의 스팩이 작성되있어요!</p>
+                                                <a class="btn btn-mini" href="./profile">&raquo; 자세히 보기</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>              
+                        </div>    
+                    </div>      
                 </div>
             </div>
         </div>
     </section>
+
+    <!--section class="web-progress" style="padding-top: 150px; padding-bottom: 150px;">
+        <div class="container">
+            <div class="progress-box">
+                <h4>웹페이지에 사용된 파일 수</h4>
+                <div class="progress-box-view">
+                    <p>HTML</p>
+                    <progress max="27" value="5"></progress> 27 / 5
+                    <p>CSS</p>
+                    <progress max="27" value="7"></progress> 27 / 7
+                    <p>JAVASCRIPT</p>
+                    <progress max="27" value="12"></progress> 27 / 12
+                    <p>JSON</p>
+                    <progress max="27" value="3"></progress> 27 / 3
+                </div>
+            </div>
+        </div>
+    </section-->
+
+    <!--section class="my-introduce" style="padding-top: 150px; padding-bottom: 150px;">
+        <div class="container">
+            <div class="col-md-offset-2 text-left" style="font-weight: bolder; margin-left: 0%; text-align: right;">
+                <h2>저는 심심할떄 프로그래밍을 연습하는 사람이에요!</h2>
+                <p>
+                    저는 Disocrd.js 로 시작 하였습니다.</br>
+                    현재는 다양한 것을 해보기 위해서 아래와 같은 것을 해봤어요!</br>
+                    C, C#, DISCORD.JS, HTML, JAVASCRIPT, KOTLIN, PHP
+                </p>
+            </div>
+        </div>
+    </section-->
 
     <footer id="footer" class="footer"></footer>
 
@@ -106,7 +252,6 @@
     <script src="./assets/js/main/header.nav.js"></script>
     <script src="./assets/js/aboutme.slide.js"></script>
     <script src="./assets/js/slider.js"></script>
-    <script src="./assets/js/works/main.page.works.js"></script>
     <script src="./assets/js/main/footer.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/chat.bot.js"></script>

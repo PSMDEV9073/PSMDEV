@@ -1,24 +1,24 @@
-var Swipes = new Swiper('.swiper-container', {
-    loop: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-        el: '.swiper-pagination',
-    },
-    a11y: {
-            paginationBulletMessage: "gggg",
-    },
+///// Section-1 CSS-Slider /// Auto Switching Images for CSS-Slider
+function bannerSwitcher() {
+    next = $('.sec-1-input')
+        .filter(':checked')
+        .next('.sec-1-input');
+    if (next.length) 
+        next.prop('checked', true);
+    else 
+        $('.sec-1-input')
+            .first()
+            .prop('checked', true);
+    }
+
+var bannerTimer = setInterval(bannerSwitcher, 5000);
+
+$('nav .controls label').click(function () {
+    clearInterval(bannerTimer);
+    bannerTimer = setInterval(bannerSwitcher, 5000)
 });
 
-function autobanner() {
-    $('.swiper-button-next').click();
-}
-
-var autobannerTimer = setInterval(autobanner, 5000);
-
-$('.swiper-button-next').click(function () {
-    clearInterval(autobannerTimer);
-    autobannerTimer = setInterval(autobanner, 5000)
-});
+// /// Anchor Smooth Scroll ///   $('.main-menu a, .learn-more-button
+// a').click(function(e){     e.preventDefault();     var target =
+// $(this).attr('href');     $('html, body').animate({scrollTop:
+// $(target).offset().top}, 1000);     return false;   });

@@ -39,9 +39,9 @@ $("#m_header").html(`
                 </div>
 
                 <div class="mobile-nav-top-banner">
-                    <a>
+                    <a href="#">
                         <div>
-                            <span>신규 메뉴 입니다.</span>
+                            <span>새로운 메뉴 입니다.</span>
                         </div>
                     </a>
                 </div>
@@ -75,30 +75,19 @@ $("#m_header").html(`
             </div>
 
             <div class="middle-banner">
-                <p class="middle-banner-title">PSMDEV 업데이트!</p>
-                <p>1.0.3 -> 2.0.0 으로 변경 되었습니다.</p>
+                <p class="middle-banner-title">제목</p>
+                <p>소개</p>
             </div>
 
             <div class="none-bar"></div>
 
-            <a href="./t/terms">
-                <div class="bottom-nav">
-                    <li>
-                        <i class="fa fa-file-text" aria-hidden="true"></i>
-                        <p>문서 - <span>이용약관</span></p>
-                        <i class="fa fa-chevron-right right-icon" aria-hidden="true"></i>
-                    </li>
-                </div>
-            </a>
-            <a href="./t/license">
-                <div class="bottom-nav">
-                    <li>
-                        <i class="fa fa-file-text" aria-hidden="true"></i>
-                        <p>문서 - <span>라이센스</span></p>
-                        <i class="fa fa-chevron-right right-icon" aria-hidden="true"></i>
-                    </li>
-                </div>
-            </a>
+            <div class="bottom-nav">
+                <li>
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                    <p>문서</p>
+                    <i class="fa fa-chevron-right right-icon" aria-hidden="true"></i>
+                </li>
+            </div>
 
             <div class="bottom-nav-copyright">
                 <p>

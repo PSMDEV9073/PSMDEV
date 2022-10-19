@@ -2,71 +2,69 @@
     {
         "works_title": "프로필 카드",
         "works_description": "디스코드 프로필 카드",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/HTML/Discord%20profile%20card",
         "works_demo": "https://psmdev-portfolio.netlify.app/html//discord%20profile%20card",
         "works_target": "_blank",
+        "works_demo_view": "../demo",
         "works_category": "lang-html",
-        "works_select": "discord_profile_card",
-        "main_view": "active"
+        "works_select": "discord_profile_card"
     },
     {
         "works_title": "웹훅 전송",
         "works_description": "디스코드 웹훅 전송",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/HTML/Discord%20webhook%20quick%20inquiry",
         "works_demo": "https://psmdev-portfolio.netlify.app/html/discord%20webhook%20quick%20inquiry/",
         "works_target": "_blank",
+        "works_demo_view": "../demo",
         "works_category": "lang-html",
-        "works_select": "webhook_send",
-        "main_view": "active"
+        "works_select": "webhook_send"
     },
     {
         "works_title": "사이드 메시지",
         "works_description": "사이드 환영 메시지",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/HTML/Side%20welcome%20message",
         "works_demo": "https://psmdev-portfolio.netlify.app/html/side%20welcome%20message",
         "works_target": "_blank",
+        "works_demo_view": "../demo",
         "works_category": "lang-html",
-        "works_select": "side_msg",
-        "main_view": "active"
+        "works_select": "side_msg"
     },
     {
         "works_title": "윈도우 11",
         "works_description": "우클릭 상자",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/HTML/Windows11%20right%20click%20box",
         "works_demo": "https://psmdev-portfolio.netlify.app/html/windows11%20right%20click%20box",
         "works_target": "_blank",
+        "works_demo_view": "../demo",
         "works_category": "lang-html",
-        "works_select": "windows_11_box",
-        "main_view": "active"
+        "works_select": "windows_11_box"
     },
     {
         "works_title": "관리봇",
         "works_description": "로그",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/1.%20로그",
         "works_demo": "none",
         "works_target": "_blank",
-        "works_category": "lang-discord-js",
-        "main_view": "active"
+        "works_category": "lang-discord-js"
     },
     {
         "works_title": "관리봇",
         "works_description": "정보",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/2.%20정보",
         "works_demo": "none",
         "works_target": "_blank",
-        "works_category": "lang-discord-js",
-        "main_view": "active"
+        "works_category": "lang-discord-js"
     },
     {
         "works_title": "관리봇",
         "works_description": "인증",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/3.%20인증",
         "works_demo": "none",
         "works_target": "_blank",
@@ -75,7 +73,7 @@
     {
         "works_title": "관리봇",
         "works_description": "처벌",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/4.%20처벌",
         "works_demo": "none",
         "works_target": "_blank",
@@ -84,7 +82,7 @@
     {
         "works_title": "관리봇",
         "works_description": "별명변경",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/5.%20별명변경",
         "works_demo": "none",
         "works_target": "_blank",
@@ -93,7 +91,7 @@
     {
         "works_title": "관리봇",
         "works_description": "역할",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/6.%20역할",
         "works_demo": "none",
         "works_target": "_blank",
@@ -102,7 +100,7 @@
     {
         "works_title": "관리봇",
         "works_description": "출퇴근",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/7.%20출퇴근",
         "works_demo": "none",
         "works_target": "_blank",
@@ -111,7 +109,7 @@
     {
         "works_title": "관리봇",
         "works_description": "고객센터",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/9.%20고객센터",
         "works_demo": "none",
         "works_target": "_blank",
@@ -120,7 +118,7 @@
     {
         "works_title": "관리봇",
         "works_description": "레벨",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/10.%20레벨",
         "works_demo": "none",
         "works_target": "_blank",
@@ -129,7 +127,7 @@
     {
         "works_title": "관리봇",
         "works_description": "후기",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/11.%20후기",
         "works_demo": "none",
         "works_target": "_blank",
@@ -138,7 +136,7 @@
     {
         "works_title": "관리봇",
         "works_description": "봇 정보",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/12.%20봇 정보",
         "works_demo": "none",
         "works_target": "_blank",
@@ -147,7 +145,7 @@
     {
         "works_title": "관리봇",
         "works_description": "단어배우기",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/13.%20단어배우기",
         "works_demo": "none",
         "works_target": "_blank",
@@ -156,7 +154,7 @@
     {
         "works_title": "관리봇",
         "works_description": "구매기록",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/14.%20구매기록",
         "works_demo": "none",
         "works_target": "_blank",
@@ -165,7 +163,7 @@
     {
         "works_title": "관리봇",
         "works_description": "공지사항",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/15.%20공지사항",
         "works_demo": "none",
         "works_target": "_blank",
@@ -174,7 +172,7 @@
     {
         "works_title": "관리봇",
         "works_description": "블랙리스트",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/16.%20블랙리스트",
         "works_demo": "none",
         "works_target": "_blank",
@@ -183,7 +181,7 @@
     {
         "works_title": "관리봇",
         "works_description": "교육",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/17.%20교육",
         "works_demo": "none",
         "works_target": "_blank",
@@ -192,7 +190,7 @@
     {
         "works_title": "관리봇",
         "works_description": "청소",
-        "works_image": "../assets/images/all-photo/Black-Logo.png",
+        "works_image": "../assets/images/all-photo/White-Logo.png",
         "works_url": "https://github.com/PSM-031211/portfolio/tree/main/DISCORD%20BOT/18.%20청소",
         "works_demo": "none",
         "works_target": "_blank",
