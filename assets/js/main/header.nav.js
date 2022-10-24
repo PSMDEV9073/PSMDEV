@@ -9,6 +9,9 @@ $("#header").append(`
                 <a style="color: black; font-weight: bold;" href="./">Home</a>
             </li>
             <li>
+                <a style="color: black; font-weight: bold;" href="./newswire">Newswire</a>
+            </li>
+            <li>
                 <a style="color: black; font-weight: bold;" href="./works">Works</a>
             </li>
             <li>
@@ -33,61 +36,82 @@ $("#m_header").html(`
                 <span>PSMDEV 입니다.</span>
 
                 <div class="hide-left-side-bar-btn cell-right">
-                    <span class="btn ico">
+                    <span class="btn ico" style="font-size: 20px;">
                         <i class="fa fa-times" aria-hidden="true"></i>
                     </span>
                 </div>
 
                 <div class="mobile-nav-top-banner">
-                    <a href="#">
+                    <a>
                         <div>
-                            <span>새로운 메뉴 입니다.</span>
+                            <span>신규 메뉴 입니다.</span>
                         </div>
                     </a>
                 </div>
 
                 <div class="mobile-nav-top-menu">
-                    <a href="./">
-                        <li>
-                            <i class="fa fa-home" aria-hidden="true"></i>
-                            <span>Home</span>
-                        </li>
-                    </a>
-                    <a href="./works">
-                        <li>
-                            <i class="fa fa-bookmark" aria-hidden="true"></i>
-                            <span>Works</span>
-                        </li>
-                    </a>
-                    <a href="./profile">
-                        <li>
-                            <i class="fa fa-user" aria-hidden="true"></i>
-                            <span>Profile</span>
-                        </li>
-                    </a>
-                    <a href="./roadmaps">
-                        <li>
-                            <i class="fa fa-road" aria-hidden="true"></i>
-                            <span>Roadmaps</span>
-                        </li>
-                    </a>
+                    <ul>
+                        <a href="./">
+                            <li>
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                                <span>Home</span>
+                            </li>
+                        </a>
+                        <a href="./works">
+                            <li>
+                                <i class="fa fa-bookmark" aria-hidden="true"></i>
+                                <span>Works</span>
+                            </li>
+                        </a>
+                        <a href="./profile">
+                            <li>
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span>Profile</span>
+                            </li>
+                        </a>
+                        <a href="./roadmaps">
+                            <li>
+                                <i class="fa fa-road" aria-hidden="true"></i>
+                                <span>Roadmaps</span>
+                            </li>
+                        </a>
+                    </ul>
+                    <ul>
+                        <a href="./newswire">
+                            <li>
+                                <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                                <span>Newswire</span>
+                            </li>
+                        </a>
+                        <a href="./t/terms">
+                            <li>
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
+                                <span>Terms</span>
+                            </li>
+                        </a>
+                        <a href="./t/license">
+                            <li>
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
+                                <span>License</span>
+                            </li>
+                        </a>
+                        <a>
+                            <li>
+                                <i class="fa fa-add" aria-hidden="true"></i>
+                                <span>추가예정</span>
+                            </li>
+                        </a>
+                    </ul>
                 </div>
             </div>
 
             <div class="middle-banner">
-                <p class="middle-banner-title">제목</p>
-                <p>소개</p>
+                <p class="middle-banner-title">PSMDEV 업데이트!</p>
+                <p>1.0.3 -> 2.0.0 으로 변경 되었습니다.</p>
             </div>
 
             <div class="none-bar"></div>
-
-            <div class="bottom-nav">
-                <li>
-                    <i class="fa fa-file-text" aria-hidden="true"></i>
-                    <p>문서</p>
-                    <i class="fa fa-chevron-right right-icon" aria-hidden="true"></i>
-                </li>
-            </div>
+            <div style="padding-top: 20px; border-bottom: 2px rgba(000, 000, 000, 0.1) solid;"></div>
 
             <div class="bottom-nav-copyright">
                 <p>

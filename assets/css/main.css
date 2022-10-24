@@ -4,8 +4,8 @@
 
 body {
     margin: 0px;
-    background-color: #23272a;
-    color: #ffffff;
+    background-color: #c4d0e6;
+    color: black;
     cursor: default;
     -ms-user-select: none; 
     -moz-user-select: -moz-none;
@@ -18,14 +18,8 @@ body {
     margin: 0 0 0 0;
 }
 
-.s-banner {
-    background-color: #1b1c1d;
-    background-position: center top;
-    background-repeat: no-repeat;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
+.section-top-header {
+    padding-bottom: 79px;
 }
 
 #header {
@@ -38,7 +32,6 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    /*background: #1b1c1d;*/
     padding: 8px 12px;
     background: rgba(229,235,244,0.8);
     backdrop-filter: blur(20px);
@@ -94,7 +87,7 @@ body {
     transition: all 0.1s ease-in-out;
     transition-duration: 0.1s;
     opacity: 0;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 .navbar__menu a:hover, .navbar__menu a:focus,
 .navbar__menu a:active, .navbar__menu a::after, .navbar__menu a::before {
@@ -124,7 +117,7 @@ body {
     display: none;
     position: absolute;
     left: 32px;
-    font-size: 24px;
+    font-size: 30px;
     /*color: #d49466;*/
     color: black;
 }
@@ -142,17 +135,19 @@ body {
     position: absolute;
     position: fixed;
     width: 100%;
-    /*height: 100%;*/
     top: 0;
     bottom: 0;
-    background-color: #23272a;
+    /*background: #c4d0e6;*/
+    background: rgba(229,235,244,0.8);
+    backdrop-filter: blur(20px);
     z-index: 999999999;
-    color: white;
+    color: black;
     overflow-y: scroll;
 }
 
 .mobile-nav .mobile-top {
     padding: 20px 10px 10px 10px;
+    height: 270px;
 }
 .mobile-nav .mobile-top p {
     font-weight: 200;
@@ -162,29 +157,26 @@ body {
     height: 30px;
     font-size: 17px;
     line-height: 30px;
-    color: #ffffff;
+    color: black;
     vertical-align: top;
 }
 .mobile-nav .mobile-top span {
-    font-size: 10px;
+    font-size: 12px;
     display: block;
-    color: #ffffff;
+    color: black;
     opacity: 0.8;
 }
 
 .hide-left-side-bar-btn {
     position: absolute;
     top: 14px;
-    right: 10px;
-    width: 30px;
-    height: 30px;
+    right: 26px;
 }
 .hide-left-side-bar-btn .btn {
     display: block;
-    width: 12px;
+    width: 13px;
     height: 13px;
-    margin: 0 auto;
-    color: #ffffff;
+    color: black;
     text-indent: 0;
 }
 
@@ -201,7 +193,7 @@ body {
     height: 35px;
     border-radius: 3px;
     margin-top: 10px;
-    background-color: #1b1c1d;
+    background-color: rgba(128, 128, 128, 0.2);
     padding: 10px 10px 10px 10px;
 }
 
@@ -214,6 +206,8 @@ body {
     list-style:none;
     text-align: center;
     width: 25%;
+    height: 60px;
+    font-size: 20px;
     float: left;
 }
 
@@ -262,8 +256,9 @@ body {
     top: 52%;
 }
 .bottom-nav-copyright p {
-    font-size: 7px;
+    font-size: 12px;
 }
+
 @keyframes fadeInLeftToRight {
     0% {
         opacity: 0;
@@ -277,23 +272,23 @@ body {
 
 @keyframes fadeInRightToLeft {
     0% {
-        opacity: 1;
-        transform: translateZ(0);
+        opacity: 0;
+        transform: translate3d(0, 0, 0);
     }
     to {
-        opacity: 0;
-        transform: translate3d(-100%, 0, 0);
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
     }
 }
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: black;
 }
 
 a:hover, a:focus, a:active, a::after, a::before {
     text-decoration: none;
-    color: #ffffff;
+    color: black;
     cursor: default;
 }
 
@@ -392,24 +387,29 @@ ul, ol {
     line-height: 35px;
 }
 
-.footer .footer-top {
-    background-color: #1b1c1d;
-    padding-top: 50px 0;
-}
+.footer-top { padding: 60px 0; text-align: left; color: black; }
+.footer-top h3 { font-weight: 600; padding-bottom: 10px; color: black; }
 
-.footer .footer-bottom {
-    background-color: #1b1c1d;
-    padding: 20px 0;
-}
+.footer-about h2 { border: 0; font-weight: 600; }
+.footer-about p { border: 0; font-size: 14px;}
 
-.footer .footer-url li {
-    display: inline-block;
-    float: none;
-}
+.footer-text h3 { border: 0; font-weight: 600; color: black; }
+.footer-text p { word-wrap: break-word; color: black; }
+.footer-text p a { border: 0; color: black; }
 
-.footer .webversion-text {
-    color: rgba(255, 255, 255, 0.5);
-}
+.footer-links a { color: black; border: 0; }
+.footer-links a:hover, .footer-links a:focus { color: black; }
+
+.footer-bottom { padding: 15px 0 17px 0; border-top: 2px solid rgba(229,235,244,0.8); text-align: left; color: black; }
+
+.footer-social { padding-top: 3px; text-align: right; }
+.footer-social a { margin-left: 20px; color: black; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: black; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+
+.footer-copyright { padding-top: 5px; }
+.footer-copyright a { color: black; border: 0; }
+.footer-copyright a:hover, .footer-copyright a:focus { color: black; border: 0; }
 
 /* =============== GO TO TOP =============== */
 #scrollToTop {
@@ -531,6 +531,10 @@ ul, ol {
     }
 }
 @media screen and (min-width: 1200px) {
+    html {
+        overflow-x: auto;
+        overflow-y: auto;
+    }
     #m_header {
         display: none;
     }
@@ -602,6 +606,109 @@ ul, ol {
         font-size: 10px;
     }
 }
+
+.skills li {
+    list-style: none;
+    font-size: 18px;
+    margin-top: 25px;
+    color: #484848;
+}
+.skills {
+    padding: 0;
+}
+.skillHeader {
+    color: #FC621D;
+    padding-bottom: 15px;
+}
+.fa-github-alt {
+    color: white;
+    margin-top: 50px;
+}
+.skill-ico {
+    border-radius: 50%;
+    background-color: #FC621D;
+    padding: 50px;
+    color: white;
+    margin-top: 100px;
+}
+
+.moving-man-img-background {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.moving-man-img {
+    display: inline-block;
+    position: relative;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 40%;
+    left: 35%;
+    -webkit-animation: movingman 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: movingman 5s infinite;  /* 애니:변수 5초동안 반복 */
+    animation-direction: alternate-reverse /* 애니-방향:되돌아감 */
+}
+
+ /* Chrome, Safari, Opera */
+ @-webkit-keyframes movingman {
+    0% {
+        left: 40%;
+        top: 35%;
+    }
+    /* 0% 진행시점(start) 속성설정 */
+    25% {
+        left: 35%;
+        top: 35%;
+    }
+    /* 25%진행시점 속성설정 */
+    50% {
+        left: 37.5%;
+        top: 30%;
+    }
+    /* 50%진행시점 속성설정 */
+    75% {
+        left: 37.5%;
+        top: 35%;
+    }
+    /* 75%진행시점 속성설정 */
+    100% {
+        left: 37.5%;
+        top: 35%;
+    }
+    /* 100%진행시점(end) 속성설정 */
+}
+
+/* 위치이동(상대값; 현재위치기준으로 증가값 기재) */
+@keyframes movingman {
+    0% {
+        left: 40%;
+        top: 35%;
+    }
+    /* 0% 진행시점(start) 속성설정 */
+    25% {
+        left: 35%;
+        top: 35%;
+    }
+    /* 25%진행시점 속성설정 */
+    50% {
+        left: 37.5%;
+        top: 30%;
+    }
+    /* 50%진행시점 속성설정 */
+    75% {
+        left: 37.5%;
+        top: 35%;
+    }
+    /* 75%진행시점 속성설정 */
+    100% {
+        left: 37.5%;
+        top: 35%;
+    }
+    /* 100%진행시점(end) 속성설정 */
+}
+
 /*
     Custom scroll bar
     커스텀 스크롤바

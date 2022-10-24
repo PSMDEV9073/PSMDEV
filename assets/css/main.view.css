@@ -1,0 +1,185 @@
+/***************************
+        #newswire
+***************************/
+#newswire .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#newswire .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 13px;
+}
+
+#newswire .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#newswire .portfolio-item .portfolio-caption .source-view-btn,
+#newswire .portfolio-item .portfolio-caption .demo-view-btn,
+#newswire .more-view-btn {
+    border: 1px solid rgba(000, 000, 000, 0.1);
+    border-radius: 3px;
+    padding: 10px 30px 10px 30px;
+}
+#newswire .more-view-btn {
+    background-color: #ffffff;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #000000;
+}
+#newswire .portfolio-item .portfolio-caption .source-view-btn {
+    background-color: #ffffff;
+    color: #000000;
+}
+#newswire .portfolio-item .portfolio-caption .demo-view-btn {
+    background-color: #ba1f34;
+    color: #ffffff;
+}
+#newswire .more-view-btn:hover {
+    background-color: #f3f3f4;
+    color: #000000;
+}
+#newswire .portfolio-item .portfolio-caption .source-view-btn:hover {
+    background-color: #f3f3f4;
+    color: #000000;
+}
+#newswire .portfolio-item .portfolio-caption .demo-view-btn:hover {
+    background-color: #a31024;
+    color: #ffffff;
+}
+
+@media(max-width:1199px) {
+    #newswire .portfolio-item .portfolio-caption .source-view-btn,
+    #newswire .portfolio-item .portfolio-caption .demo-view-btn,
+    #newswire .more-view-btn {
+        padding: 5px 20px 5px 20px;
+        font-size: 15px;
+    }
+}
+@media(max-width:767px) {
+    #newswire .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+@media(max-width:352px) {
+    #newswire .portfolio-item {
+        margin: 0 0 30px;
+    }
+    #newswire .portfolio-item .portfolio-caption .source-view-btn,
+    #newswire .portfolio-item .portfolio-caption .demo-view-btn,
+    #newswire .more-view-btn {
+        padding: 5px 20px 5px 20px;
+        font-size: 12px;
+    }
+}
+
+
+/***************************
+        #portfolio
+***************************/
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 13px;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption .source-view-btn,
+#portfolio .portfolio-item .portfolio-caption .demo-view-btn,
+#portfolio .more-view-btn {
+    border: 1px solid rgba(000, 000, 000, 0.1);
+    border-radius: 3px;
+    padding: 10px 30px 10px 30px;
+}
+#portfolio .more-view-btn {
+    background-color: #ffffff;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #000000;
+}
+#portfolio .portfolio-item .portfolio-caption .source-view-btn {
+    background-color: #ffffff;
+    color: #000000;
+}
+#portfolio .portfolio-item .portfolio-caption .demo-view-btn {
+    background-color: #ba1f34;
+    color: #ffffff;
+}
+#portfolio .more-view-btn:hover {
+    background-color: #f3f3f4;
+    color: #000000;
+}
+#portfolio .portfolio-item .portfolio-caption .source-view-btn:hover {
+    background-color: #f3f3f4;
+    color: #000000;
+}
+#portfolio .portfolio-item .portfolio-caption .demo-view-btn:hover {
+    background-color: #a31024;
+    color: #ffffff;
+}
+
+@media(max-width:1199px) {
+    #portfolio .portfolio-item .portfolio-caption .source-view-btn,
+    #portfolio .portfolio-item .portfolio-caption .demo-view-btn,
+    #portfolio .more-view-btn {
+        padding: 5px 20px 5px 20px;
+        font-size: 15px;
+    }
+}
+@media(max-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+@media(max-width:352px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+    #portfolio .portfolio-item .portfolio-caption .source-view-btn,
+    #portfolio .portfolio-item .portfolio-caption .demo-view-btn,
+    #portfolio .more-view-btn {
+        padding: 5px 20px 5px 20px;
+        font-size: 12px;
+    }
+}
+
+@keyframes aLeftToRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes aRightToLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "Newswire_CTGR": "Notice",
+        "Newswire_Num": "3",
+        "Newswire_Writer": "IPv8#9041",
+        "Newswire_Title": "PSMDEV Web 2.0 정식 업데이트",
+        "Newswire_Desc": "<p>PSMDEV 정식 버전이 v1.3 -> v2.0 변경 되었습니다.</p><p>리뉴얼 내용은 <a href='../newswire/patchnote.10242022' class='link-a'>패치노트</a> 에서 확인할 수 있습니다.</p>a",
+        "Newswire_Date": "Posted on October 19, 2022",
+        "Newswire_Detail_Date": "Tue, Oct 25 2022, 00:00 AM",
+        "Newswire_Page_Num": "1",
+        "Newswire_Url": "./newswire/notice.10252022",
+        "Newswire_View": "active"
+    },
+    {
+        "Newswire_CTGR": "PatchNote",
+        "Newswire_Num": "2",
+        "Newswire_Writer": "IPv8#9041",
+        "Newswire_Title": "PSMDEV Web 2.0 개발자 버전",
+        "Newswire_Desc": "<h5>변경</h5><p>PSMDEV v1.3->v2.0</br>메인 백드라운드 컬러 변경 #23272a -> #c4d0e6</br>메인 페이지 구성 변경</br>&nbsp; ㄴ배너</br>&nbsp; ㄴ작업물</br>데모 페이지 삭제 -> URL로 이동하는 방식</p></br><h5>추가</h5><p>공지사항 및 패치노트 페이지가 추가 되었습니다.</br> Footer에 웹의 정보가 추가 되었습니다.</p>",
+        "Newswire_Date": "Posted on October 19, 2022",
+        "Newswire_Detail_Date": "Wed, Oct 19 2022, 18:04 PM",
+        "Newswire_Page_Num": "1",
+        "Newswire_Url": "./newswire/notice.10222022",
+        "Newswire_View": "active"
+    },
+    {
+        "Newswire_CTGR": "Notice",
+        "Newswire_Num": "1",
+        "Newswire_Writer": "IPv8#9041",
+        "Newswire_Title": "PSMDEV 웹이 리뉴얼 되었습니다.",
+        "Newswire_Desc": "<p>리뉴얼 내용은 <a href='../newswire/patchnote.10222022'class='link-a'>패치노트</a> 에서 확인할 수 있습니다.</p>",
+        "Newswire_Date": "Posted on October 19, 2022",
+        "Newswire_Detail_Date": "Wed, Oct 19 2022, 18:04 PM",
+        "Newswire_Page_Num": "1",
+        "Newswire_Url": "./newswire/patchnote.10222022",
+        "Newswire_View": "active"
+    }
+]

@@ -2,15 +2,16 @@
     padding-top: 20px;
 }
 .col-lg-3 {
-    background-color: #1b1c1d;
+    background-color: #ffffff;
     border-radius: 20px;
     padding: 20px 20px 20px 20px;
 }
 .input-radius {
-    border-radius: 30px;
+    border-radius: 5px;
     outline: 0;
     border: 0;
-    background-color: #23272a;
+    background-color: #f3f3f4;
+    border: 1px solid rgba(128, 128, 128, 0.2);
     height: 35px;
     width: 100%;
     padding: 5px 5px 5px 5px;
@@ -18,14 +19,14 @@
 .btn-radius {
     border-radius: 10px;
     outline: 0;
-    border: 1px gray solid;
-    background-color: #1b1c1d;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    background-color: #ffffff;
     height: 50px;
     width: 100%;
     padding: 5px 5px 5px 5px;
 }
 .choise {
-    background-color: #ffffff;
+    background-color: rgba(128, 128, 128, 0.2);
     color: #000000;
 }
 
@@ -55,7 +56,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #ffffff;
+    background: rgba(128, 128, 128, 0.2);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 100% 50%;
@@ -77,11 +78,11 @@
 
 .card-body {
     border-radius: 10px;
-    background-color: #1b1c1d;
+    background-color: #ffffff;
     padding: 5px 10px 5px 10px;
 }
 .card-body:hover {
-    background-color: rgba(255,255,2555, 0.1);
+    background-color: rgba(000, 000, 000, 0.2);
 }
 .card-body .card-image {
     width: 30px;
@@ -97,8 +98,9 @@
 .portfolio-description {
     font-size: 14px;
 }
-.none-hover:hover, .none-hover:focus,
-.none-hover::after, .none-hover::before {
+
+.none-hover span:hover, .none-hover span:focus,
+.none-hover span::after, .none-hover span::before {
     color: #ffffff;
     cursor: default;
 }

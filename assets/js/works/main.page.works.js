@@ -26,12 +26,12 @@ function jsonfunc_main_works( jsonText_main_works ) {
         if(main_view == "active") {
             if(works_demo !== "none") {
                 $("#main_page_portfolio_view").append(`
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-4 col-sm-6 portfolio-item arightoleft">
                         <div class="portfolio-caption">
-                        <div style="padding-bottom: 20px;">
-                            <h4>${works_title}</h4>
-                            <p>${works_description}</p>
-                        </div>
+                            <div style="padding-bottom: 20px;">
+                                <h4>${works_title}</h4>
+                                <p>${works_description}</p>
+                            </div>
                             <a href="${works_url}" class="source-view-btn">소스코드 <i class="fa fa-external-link" aria-hidden="true"></i></a>
                             <a href="${works_demo}" target="_blank" class="demo-view-btn">데모보기 <i class="fa fa-external-link" aria-hidden="true"></i></a>
                         </div>
@@ -39,12 +39,12 @@ function jsonfunc_main_works( jsonText_main_works ) {
                 `);
             } else {
                 $("#main_page_portfolio_view").append(`
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-4 col-sm-6 portfolio-item arightoleft">
                         <div class="portfolio-caption">
-                        <div style="padding-bottom: 20px;">
-                            <h4>${works_title}</h4>
-                            <p>${works_description}</p>
-                        </div>
+                            <div style="padding-bottom: 20px;">
+                                <h4>${works_title}</h4>
+                                <p>${works_description}</p>
+                            </div>
                             <a href="${works_url}" class="source-view-btn">소스코드 <i class="fa fa-external-link" aria-hidden="true"></i></a>
                             <a class="demo-view-btn">사용불가 <i class="fa fa-times-circle" aria-hidden="true"></i></a>
                         </div>
@@ -57,9 +57,9 @@ function jsonfunc_main_works( jsonText_main_works ) {
 
 jQuery(function($) {
 	$(window).scroll(function() {
-		if ($(this).scrollTop() > 150) {
-			$('.portfolio-item').css({
-                animation: "fadeInLeftToRight 1s"
+		if ($(this).scrollTop() > 1380) {
+			$('.arightoleft').css({
+                animation: "aRightToLeft 1s"
             });
 		}
 	});
